@@ -1,0 +1,77 @@
+body {
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+    background-image: url(heartr.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: 100px 100px;
+    align-items: center;
+}
+
+header,
+footer {
+    height: 1.3in;
+    width: 99%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 3px 6px -2px black;
+    opacity: 90%;
+}
+
+header {
+    position: relative;
+    margin-top: 12px;
+}
+
+main {
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+footer {
+    /* position: fixed;
+    margin-top: 50%; */
+    position: absolute;
+    bottom: 0;
+}
+
+#name {
+    font-family: 'Benne', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 110px;
+    color: aqua;
+    text-shadow: -2px 2px 0 black;
+}
+
+a {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+.linkedin {
+    height: 50px;
+    width: 50px;
+    margin-top: 2%;
+    opacity: 70%;
+}
+
+#about {
+    background-color: aliceblue;
+    width: 99%;
+    text-align: center;
+    box-shadow: 0 3px 6px -2px black;
+    opacity: 90%;
+    border-radius: 25%;
+    font-size: 25px;
+}
+
+.links {
+    float: right;
+}
+
+#falkor {
+    height: 13%;
+    width: 13%;
+}
