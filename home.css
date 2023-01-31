@@ -38,11 +38,27 @@ footer {
 }
 
 #name {
-    font-family: 'Benne', serif;
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Benne', serif;
+    font-family: 'Ubuntu', sans-serif; */
     font-size: 110px;
-    color: aqua;
-    text-shadow: -2px 2px 0 black;
+    color: rgb(0, 0, 0)9, 70, 70);
+    text-shadow: -1px 1px 0 black;
+}
+
+#music_by {
+    /* font-family: 'Benne', serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-size: 90px;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 1px 0 black;
+}
+
+#portfolio {
+    /* font-family: 'Benne', serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-size: 90px;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 1px 0 black;
 }
 
 a {
@@ -74,4 +90,25 @@ a {
 #falkor {
     height: 13%;
     width: 13%;
+}
+
+#falkor2 {
+    height: 13%;
+    width: 13%;
+    transform: rotateY(180deg);
+    float: right;
+}
+
+audio {
+    display: block;
+    border: 1px solid black;
+    background-color: aqua;
+    opacity: 96%;
+    border-radius: 2px;
+    padding: 1em;
+}
+
+.port {
+    margin: 10px;
+    width: 30%;
 }
